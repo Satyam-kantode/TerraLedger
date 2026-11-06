@@ -59,6 +59,12 @@ The app requires an IPFS CID before land registration. It records that CID and t
 - Document verification compares the selected file's SHA-256 digest with the digest stored for the land ID. The IPFS verification action fetches the CID stored on-chain and verifies the retrieved file the same way.
 - A confirmed transaction is shown only after ethers.js `tx.wait()` returns.
 
+## Author
+
+Developed by **Satyam Kantode**
+GitHub: [https://github.com/Satyam-kantode](https://github.com/Satyam-kantode)
+
+
 Ganache is ephemeral by design. Restarting it with a new workspace requires redeploying the contract and updating `VITE_CONTRACT_ADDRESS`; previous records are not carried over.
 
 ## Checks
