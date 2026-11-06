@@ -1,0 +1,10 @@
+{
+  "name": "terraledger-land-registry",
+  "scripts": {
+    "demo": "node ./scripts/demo-check.js",
+    "dev": "npm run dev --prefix frontend"
+  },
+  "dependencies": {
+    "qrcode.react": "^4.2.0"
+  }
+}
